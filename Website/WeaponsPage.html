@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  text-align: center;
+  color: black;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<img src="TitleScreen.jpg" alt="TitlePhoto" width= 100% height="500">
+</div>
+
+<div class="navbar">
+  <a href="Website.html">Home</a>
+  <a href="WeaponsPage.html">Weapons</a>
+  <a href="EnemiesPage.html">Enemies</a>
+  <a href="#" class="right">Donate</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Chuck</h2>
+    <h5>Photo of Chuck:</h5>
+    <img src="Chuck.jpg" alt="Chuck" width="200" height="150">
+    <p>Everything you need to know about the loveable Cuck can be summed up in 3 words. Steak, Beer and Freedom baby!</p>
+ </div>
+  <div class="main">
+    <h2>Purchasable Weapons</h2>
+    <h2>M1911</h2>
+    <img src="StarterPistol.jpg" alt="StartPistol" width="200" height="150">
+    <p>Damage: 1</p>
+    <p>Price: $0 (Free)</p>
+    <p>Fire Rate: Single Fire</p>
+    <p>Description: Strong, sturdy and reliable. This trusty piece has been within your family for years. Single fire good at short to medium range.</p>
+    <h2>Shotgun</h2>
+    <img src="ShotGun.jpg" alt="Shotgun" width="200" height="150">
+    <p>Damage: 5</p>
+    <p>Price: $1750</p>
+    <p>Fire Rate: Pump</p>
+    <p>Description: Rusty yet trusty, a classic farmers choice. Packs a punch but only really effective at close range.</p>
+    <h2>Sub Machine Gun</h2>
+    <img src="Smg.png" alt="SMG" width="200" height="150">
+    <p>Damage: 2</p>
+    <p>Price: $2500</p>
+    <p>Fire Rate: Fast</p>
+    <p>Description: Small and compact, but deadly all the same, wait 'til the little green suckers get a load of this. High fire rate with low damage projectiles, best used at low to medium range.</p>
+    <h2>Assault Rifle</h2>
+    <img src="Rifle.jpg" alt="Assault Rifle" width="200" height="150">
+    <p>Damage: 8</p>
+    <p>Price: $3250</p>
+    <p>Fire Rate: Medium</p>
+    <p>Description: Military grade, good ol' american made grade A fire power. Perfect for kicking some alien ass! High power medium fire rate makes for a well rounded weapon.</p>
+  </div>
+</div>
+
+</body>
+</html>
